@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="768" height="576" viewBox="0 0 768 576" role="img" aria-labelledby="title desc">
+  <title id="title">Sfeerbeeld salon Petra's Laser &amp; Beauty</title>
+  <desc id="desc">Zachte vormen en warme tinten als sfeerbeeld.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9efe9"/>
+      <stop offset="100%" stop-color="#f0d6c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="768" height="576" fill="url(#g)"/>
+  <circle cx="580" cy="130" r="96" fill="#e9bfa9" opacity="0.6"/>
+  <circle cx="180" cy="430" r="140" fill="#e1a78f" opacity="0.5"/>
+  <text x="40" y="300" fill="#7a4c3c" font-family="Arial, sans-serif" font-size="28">Petra's Laser &amp; Beauty</text>
+</svg>

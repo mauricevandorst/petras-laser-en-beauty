@@ -1,0 +1,64 @@
+﻿﻿﻿{
+  "lastUpdated": "2026-03-21",
+  "currency": "EUR",
+  "labels": {
+    "indicatief": "Prijzen zijn indicatief en kunnen per behandeling verschillen."
+  },
+  "groepen": [
+    {
+      "titel": "Pedicure",
+      "items": [
+        {
+          "naam": "Basis pedicure",
+          "prijs": "vanaf € onbekend",
+          "toelichting": "Nagels knippen, verzorging en een frisse finish."
+        },
+        {
+          "naam": "Deluxe pedicure",
+          "prijs": "vanaf € onbekend",
+          "toelichting": "Extra ontspanning met verzorgende stappen en massage."
+        },
+        {
+          "naam": "Cosmetische pedicure",
+          "prijs": "vanaf € onbekend",
+          "toelichting": "Verzorgde uitstraling met aandacht voor detail."
+        }
+      ],
+      "addons": [
+        "Eeltpit (placeholder)",
+        "Ingroeiende teennagel (placeholder)",
+        "Kloven (placeholder)"
+      ]
+    },
+    {
+      "titel": "Waxen / Harsen",
+      "items": [
+        {
+          "naam": "Gezicht",
+          "prijs": "vanaf € onbekend"
+        },
+        {
+          "naam": "Armen & oksels",
+          "prijs": "vanaf € onbekend"
+        },
+        {
+          "naam": "Benen",
+          "prijs": "vanaf € onbekend"
+        },
+        {
+          "naam": "Wenkbrauwen",
+          "prijs": "vanaf € onbekend"
+        }
+      ]
+    },
+    {
+      "titel": "Gellak",
+      "items": [
+        {
+          "naam": "Gellak (tenen/pedicure)",
+          "prijs": "vanaf € onbekend"
+        }
+      ]
+    }
+  ]
+}
