@@ -883,6 +883,10 @@ video {
   height: var(--initial-dvh,100dvh);
 }
 
+.h-\[var\(--initial-dvh\2c 95dvh\)\] {
+  height: var(--initial-dvh,95dvh);
+}
+
 .min-h-\[500px\] {
   min-height: 500px;
 }
@@ -1105,6 +1109,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-x-3 {
@@ -1442,6 +1450,10 @@ video {
 
 .pt-\[max\(1\.5rem\2c env\(safe-area-inset-top\)\)\] {
   padding-top: max(1.5rem, env(safe-area-inset-top));
+}
+
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .font-display {
