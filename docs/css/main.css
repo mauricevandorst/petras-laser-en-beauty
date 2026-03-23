@@ -714,10 +714,6 @@ video {
   top: 50%;
 }
 
-.top-1\/3 {
-  top: 33.333333%;
-}
-
 .top-1\/4 {
   top: 25%;
 }
@@ -744,22 +740,6 @@ video {
 
 .top-\[1rem\] {
   top: 1rem;
-}
-
-.-left-1\/2 {
-  left: -50%;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.left-1\/3 {
-  left: 33.333333%;
-}
-
-.top-2\/4 {
-  top: 50%;
 }
 
 .isolate {
@@ -794,24 +774,14 @@ video {
   grid-column: span 2 / span 2;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.-mx-6 {
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-}
-
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .-mx-3 {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-2 {
@@ -914,8 +884,8 @@ video {
   height: 10rem;
 }
 
-.h-44 {
-  height: 11rem;
+.h-48 {
+  height: 12rem;
 }
 
 .h-5 {
@@ -990,6 +960,10 @@ video {
   width: 10rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -1004,10 +978,6 @@ video {
 
 .w-8 {
   width: 2rem;
-}
-
-.w-\[min\(76vw\2c 34rem\)\] {
-  width: min(76vw, 34rem);
 }
 
 .w-auto {
@@ -1244,6 +1214,10 @@ video {
   white-space: nowrap;
 }
 
+.text-wrap {
+  text-wrap: wrap;
+}
+
 .text-balance {
   text-wrap: balance;
 }
@@ -1262,10 +1236,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-none {
-  border-radius: 0px;
 }
 
 .border {
@@ -1336,6 +1306,11 @@ video {
   background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
 }
 
+.bg-neutral-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
+}
+
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
@@ -1358,26 +1333,12 @@ video {
   background-color: rgb(255 255 255 / 0.7);
 }
 
-.bg-neutral-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
-}
-
-.bg-neutral-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[linear-gradient\(180deg\2c rgba\(255\2c 255\2c 255\2c 0\.85\)_0\%\2c rgba\(242\2c 221\2c 209\2c 0\.55\)_100\%\)\2c radial-gradient\(circle_at_12\%_8\%\2c rgba\(255\2c 255\2c 255\2c 0\.9\)_0\%\2c transparent_45\%\)\2c radial-gradient\(circle_at_85\%_12\%\2c rgba\(255\2c 255\2c 255\2c 0\.7\)_0\%\2c transparent_40\%\)\] {
   background-image: linear-gradient(180deg,rgba(255,255,255,0.85) 0%,rgba(242,221,209,0.55) 100%),radial-gradient(circle at 12% 8%,rgba(255,255,255,0.9) 0%,transparent 45%),radial-gradient(circle at 85% 12%,rgba(255,255,255,0.7) 0%,transparent 40%);
 }
 
 .bg-\[radial-gradient\(circle_at_10\%_0\%\2c rgba\(248\2c 223\2c 210\2c 0\.6\)_0\%\2c transparent_40\%\)\2c radial-gradient\(circle_at_88\%_10\%\2c rgba\(221\2c 177\2c 150\2c 0\.3\)_0\%\2c transparent_40\%\)\] {
   background-image: radial-gradient(circle at 10% 0%,rgba(248,223,210,0.6) 0%,transparent 40%),radial-gradient(circle at 88% 10%,rgba(221,177,150,0.3) 0%,transparent 40%);
-}
-
-.bg-\[radial-gradient\(ellipse_at_center\2c rgba\(233\2c 198\2c 177\2c 0\.5\)_0\%\2c rgba\(244\2c 223\2c 211\2c 0\.32\)_46\%\2c rgba\(255\2c 255\2c 255\2c 0\)_78\%\)\] {
-  background-image: radial-gradient(ellipse at center,rgba(233,198,177,0.5) 0%,rgba(244,223,211,0.32) 46%,rgba(255,255,255,0) 78%);
 }
 
 .bg-gradient-to-l {
@@ -1502,11 +1463,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .pb-10 {
@@ -1747,12 +1703,20 @@ video {
   opacity: 1;
 }
 
+.opacity-20 {
+  opacity: 0.2;
+}
+
 .opacity-30 {
   opacity: 0.3;
 }
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .opacity-70 {
@@ -1765,14 +1729,6 @@ video {
 
 .opacity-85 {
   opacity: 0.85;
-}
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-20 {
-  opacity: 0.2;
 }
 
 .shadow {
@@ -1919,11 +1875,6 @@ video {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.\[mask-image\:linear-gradient\(to_bottom\2c transparent_0\%\2c rgba\(0\2c 0\2c 0\2c 0\.85\)_38\%\2c \#000_100\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.85) 38%,#000 100%);
-          mask-image: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.85) 38%,#000 100%);
 }
 
 .\[text-shadow\:none\] {
@@ -2137,10 +2088,6 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:rounded-\[8px\] {
-    border-radius: 8px;
   }
 
   .sm\:px-10 {
