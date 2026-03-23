@@ -1,10 +1,16 @@
 // ...existing code...
 (function () {
+  const MARQUEE_BASE_DURATION_SECONDS = 20;
+  const MARQUEE_BASE_VIEWPORT_WIDTH = 390;
+
   if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
   function readyMarquee() {
     const marquee = document.querySelector('.marquee');
     if (!marquee) return;
+
+    const trackWrapper = marquee.querySelector('.animate-marquee');
+    if (!trackWrapper) return;
 
     const imgs = marquee.querySelectorAll('img');
     const imgPromises = Array.from(imgs).map(img => new Promise(res => {
@@ -34,6 +40,17 @@
         // Mirror track A into track B so both tracks match exactly.
         trackB.innerHTML = trackA.innerHTML;
         trackB.setAttribute('aria-hidden', 'true');
+
+        // Keep marquee speed consistent across screen sizes by scaling
+        // duration with the actual distance traveled (track A width).
+        // Tweak this to make the marquee faster/slower.
+        // Higher seconds = slower movement.
+        const pixelsPerSecond = MARQUEE_BASE_VIEWPORT_WIDTH / MARQUEE_BASE_DURATION_SECONDS;
+        const distance = trackA.scrollWidth;
+        if (distance > 0) {
+          const duration = distance / pixelsPerSecond;
+          trackWrapper.style.animationDuration = `${duration.toFixed(2)}s`;
+        }
       }
 
       marquee.classList.add('is-ready');
