@@ -7,3 +7,5 @@ import "./section-intro-reveal.js";
 import "./copyright-year.js";
 import "./smooth-scroll.js";
 import "./initial-viewport-height.js";
+import "./hero-intro-animations.js";
+import "./over-ons-image-reveal.js";
