@@ -163,7 +163,7 @@ module.exports = {
         fadeInUp900: "fadeInUp 0.9s ease-out 0.9s both",
         fadeInUp1100: "fadeInUp 0.9s ease-out 0.9s both",
         fadeInDown: "fadeInDown 0.6s ease-out both",
-        marquee: "marquee 30s linear infinite",
+        marquee: "marquee 40s linear infinite",
         spinSlow: "spinSlow 60s linear infinite",
         logoSwapA: "logoSwapA 16s ease-in-out infinite",
         logoSwapB: "logoSwapB 16s ease-in-out infinite",
