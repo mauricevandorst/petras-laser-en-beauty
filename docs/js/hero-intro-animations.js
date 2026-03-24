@@ -175,10 +175,21 @@
       animateElement(
         heroTrust,
         [
-          { opacity: 0, transform: "translateY(12px)" },
-          { opacity: 1, transform: "translateY(0)" },
+          {
+            opacity: 0,
+            transform: "translateY(16px)",
+          },
+          {
+            opacity: 1,
+            transform: "translateY(0)",
+            offset: 0.65,
+          },
+          {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
         ],
-        { duration: 620, easing: "ease-out", delay: 700 }
+        { duration: 760, easing: "cubic-bezier(0.2, 0.85, 0.25, 1)", delay: 680 }
       ),
       ...Array.from(heroAvatars).map((avatar, index) =>
         animateElement(

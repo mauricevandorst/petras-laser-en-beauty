@@ -1,0 +1,192 @@
+{
+  "treatments": [
+    {
+      "title": "Onderbenen",
+      "description": "Waxbehandeling voor de onderbenen voor een langdurig glad resultaat en een verzorgde uitstraling."
+    },
+    {
+      "title": "Bovenbenen",
+      "description": "Waxbehandeling voor de bovenbenen waarbij de huid zorgvuldig en zo comfortabel mogelijk wordt behandeld."
+    },
+    {
+      "title": "Hele benen",
+      "description": "Complete waxbehandeling van boven- en onderbenen voor een egaal, glad en fris gevoel."
+    },
+    {
+      "title": "Onderarmen",
+      "description": "Gerichte waxbehandeling van de onderarmen met aandacht voor een nette en zachte afwerking."
+    },
+    {
+      "title": "Boven armen",
+      "description": "Waxbehandeling van de bovenarmen om ongewenste haargroei op een milde en effectieve manier te verwijderen."
+    },
+    {
+      "title": "Gehele armen",
+      "description": "Volledige waxbehandeling van beide armen voor een langdurig glad resultaat."
+    },
+    {
+      "title": "Bikinilijn",
+      "description": "Nauwkeurige waxbehandeling van de bikinilijn met aandacht voor hygiëne, comfort en huidvriendelijke nazorg."
+    },
+    {
+      "title": "Hele gezicht",
+      "description": "Waxbehandeling van meerdere zones in het gezicht voor een frisse en verzorgde uitstraling."
+    },
+    {
+      "title": "Hele gezicht incl. wenkbrauwen",
+      "description": "Complete gezichtsbehandeling met wax, inclusief het netjes in vorm brengen van de wenkbrauwen."
+    },
+    {
+      "title": "Wenkbrauwen",
+      "description": "Wenkbrauwbehandeling waarbij vorm en symmetrie worden afgestemd op jouw gezicht."
+    },
+    {
+      "title": "Neus",
+      "description": "Korte en gerichte waxbehandeling voor ongewenste haartjes rondom de neuszone."
+    },
+    {
+      "title": "Boven lip",
+      "description": "Milde waxbehandeling van de bovenlip voor een verzorgd en glad resultaat."
+    },
+    {
+      "title": "Hals",
+      "description": "Waxbehandeling van de hals met een schone, gladde afwerking passend bij jouw huidtype."
+    },
+    {
+      "title": "Nek",
+      "description": "Gerichte waxbehandeling van de nek voor een nette uitstraling en langdurig resultaat."
+    },
+    {
+      "title": "Oksels",
+      "description": "Waxbehandeling van de oksels voor een langdurig glad resultaat in vergelijking met scheren."
+    },
+    {
+      "title": "Voeten",
+      "description": "Waxbehandeling van de voeten en tenen voor een verzorgde en zachte huid."
+    },
+    {
+      "title": "Basis pedicure (nieuwe klanten - salon)",
+      "description": "Intake en basis pedicure in de salon, afgestemd op de conditie van je voeten en nagels."
+    },
+    {
+      "title": "Ambulant (aan huis)",
+      "description": "Pedicurebehandeling aan huis voor wie liever in de eigen vertrouwde omgeving behandeld wordt."
+    },
+    {
+      "title": "Pedicure Basis",
+      "description": "Complete basis voetverzorging met aandacht voor nagels, eelt en algemeen voetcomfort."
+    },
+    {
+      "title": "Pedicure Basis incl. gellak",
+      "description": "Basis pedicure gecombineerd met gellak op de teennagels voor een verzorgde en langdurig mooie afwerking."
+    },
+    {
+      "title": "Pedicure Basis incl. waxen",
+      "description": "Basis pedicure aangevuld met een aanvullende waxbehandeling voor extra verzorging."
+    },
+    {
+      "title": "Pedicure Deluxe (incl. voetbad, scrub, masker, massage)",
+      "description": "Uitgebreide pedicure met extra wellness-stappen voor ontspanning en intensieve verzorging van de voeten."
+    },
+    {
+      "title": "Cosmetische pedicure",
+      "description": "Verzorgende behandeling gericht op het uiterlijk van de voeten en nagels, zonder medische ingrepen."
+    },
+    {
+      "title": "Cosmetische pedicure Deluxe",
+      "description": "Luxe cosmetische pedicure met extra verwenmomenten voor zachte, frisse en verzorgde voeten."
+    },
+    {
+      "title": "Voeten/tenen waxen",
+      "description": "Waxbehandeling voor voeten en tenen als losse behandeling of aanvulling op een pedicure."
+    },
+    {
+      "title": "Eeltpit verwijderen",
+      "description": "Gerichte behandeling om een eeltpit zorgvuldig te verlichten en loopcomfort te verbeteren."
+    },
+    {
+      "title": "Ingroeiende teennagel",
+      "description": "Behandeling van een ingroeiende teennagel met aandacht voor verlichting van druk en irritatie."
+    },
+    {
+      "title": "Gellak (tenen)",
+      "description": "Aanbrengen van gellak op de teennagels voor een langdurig glanzend en netjes resultaat."
+    },
+    {
+      "title": "Gellak verwijderen",
+      "description": "Veilig en zorgvuldig verwijderen van bestaande gellak, met aandacht voor behoud van de natuurlijke nagel."
+    },
+    {
+      "title": "Beauty Moment",
+      "description": "Ontspannende beautybehandeling voor huidverzorging en een fris, verzorgd gevoel."
+    },
+    {
+      "title": "Beauty Moment incl. infraroodlamp",
+      "description": "Beauty Moment gecombineerd met infraroodwarmte voor extra ontspanning en ondersteuning van herstel."
+    },
+    {
+      "title": "Rugpakking",
+      "description": "Verzorgende rugbehandeling met focus op reiniging, ontspanning en verzorging van de huid."
+    },
+    {
+      "title": "Rugpakking incl. infraroodlamp (1 lamp)",
+      "description": "Rugpakking met een infraroodlamp om spieren en huid extra warmte en ontspanning te geven."
+    },
+    {
+      "title": "Rugpakking incl. infraroodlamp (2 lampen)",
+      "description": "Rugpakking met twee infraroodlampen voor intensere warmteverdeling en een diep ontspannend effect."
+    },
+    {
+      "title": "Wenkbrauwen verven incl. epileren",
+      "description": "Kleuren en in model brengen van de wenkbrauwen voor een sprekende, nette uitstraling."
+    },
+    {
+      "title": "Wimpers",
+      "description": "Wimperbehandeling afgestemd op jouw gewenste uitstraling, subtiel of meer opvallend."
+    },
+    {
+      "title": "Wimper liften",
+      "description": "Lash lift om de natuurlijke wimpers optisch langer en meer gekruld te laten lijken."
+    },
+    {
+      "title": "Wimpers verven",
+      "description": "Wimpers verven voor meer diepte en contrast zonder dagelijkse mascara."
+    },
+    {
+      "title": "Wimpers liften en verven",
+      "description": "Combinatie van lift en kleuring voor een open blik en langdurig verzorgde wimpers."
+    },
+    {
+      "title": "Gellak (handen)",
+      "description": "Gellakbehandeling voor de handen met een duurzame, glanzende en verzorgde afwerking."
+    },
+    {
+      "title": "Handpakking (scrub & masker)",
+      "description": "Verzorgende handbehandeling met scrub en masker voor zachte, gevoede en frisse handen."
+    },
+    {
+      "title": "Sessie met 1 lamp",
+      "description": "Infraroodsessie met een lamp voor gerichte warmte, ontspanning en herstelondersteuning."
+    },
+    {
+      "title": "Sessie met 2 lampen",
+      "description": "Infraroodsessie met twee lampen voor bredere warmteverdeling en intensere ontspanning."
+    },
+    {
+      "title": "Pakket 1 lamp (4 + 1)",
+      "description": "Voordeelpakket voor meerdere infraroodsessies met 1 lamp, inclusief een extra sessie."
+    },
+    {
+      "title": "Pakket 2 lampen (4 + 1)",
+      "description": "Voordeelpakket met 2 lampen voor meerdere sessies, inclusief een extra sessie."
+    },
+    {
+      "title": "Sessie 1 lamp (bij behandeling)",
+      "description": "Korte infraroodsessie met 1 lamp als aanvulling op een bestaande behandeling."
+    },
+    {
+      "title": "Sessie 2 lampen (bij behandeling)",
+      "description": "Aanvullende infraroodsessie met 2 lampen tijdens een behandeling voor extra comfort."
+    }
+  ]
+}
