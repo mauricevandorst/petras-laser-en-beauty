@@ -64,7 +64,7 @@
   <!-- Header met hoofdnavigatie -->
   <div data-nav-root>
     <header
-      class="fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter,top] duration-300 md:mx-3 md:absolute md:inset-x-0"
+      class="fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter,top] duration-300 md:mx-3 md:fixed md:inset-x-0"
       data-nav-glass>
       <nav
         class="relative z-50 mx-auto grid w-full max-w-7xl grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 py-4 md:pb-0"
@@ -94,8 +94,8 @@
           <span class="sr-only">Petra’s Laser &amp; Beauty</span>
         </a>
         <div class="flex items-center justify-end">
-          <a class="hidden md:inline-flex items-center justify-center rounded-[5px] bg-neutral-900 px-5 py-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-            href="#afspraak">Afspraak aanvragen</a>
+          <a data-salonized-widget-trigger class="hidden md:inline-flex items-center justify-center rounded-[5px] bg-neutral-900 px-5 py-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            href="#">Plan een afspraak</a>
           <a class="inline-flex h-10 w-10 items-center justify-center text-neutral-900 md:hidden"
             href="tel:+31625117274" aria-label="Bel direct">
             <img class="h-8 w-8" src="./assets/icons/phone-dark.svg" alt="" aria-hidden="true" />
@@ -133,40 +133,42 @@
       <img data-hero-bg class="absolute inset-0 h-full w-full object-cover object-[center_35%]"
         src="./assets/hero-image-1.jpg" alt="Sfeerbeeld van de salon" loading="lazy" />
       <div data-hero-overlay
-        class="absolute inset-0 bg-gradient-to-b from-white/30 via-white/0 to-white/60"></div>
+        class="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0.34)_32%,rgba(255,255,255,0.65)_68%,rgba(255,255,255,0.72)_100%)] md:bg-[linear-gradient(to_bottom,rgba(255,255,255,0.20)_0%,rgba(255,255,255,0.26)_36%,rgba(255,255,255,0.46)_72%,rgba(255,255,255,0.58)_100%)]"></div>
+      <div class="pointer-events-none absolute inset-x-0 bottom-0 h-[62%] bg-gradient-to-t from-[#fef9f5]/95 via-white/68 to-transparent md:h-[58%] md:from-[#fef9f5]/88 md:via-white/48"></div>
       <div class="absolute inset-x-0 bottom-0 z-10">
         <div class="relative mx-auto w-full container px-6 pb-10 sm:px-10 sm:pb-12 lg:px-12 lg:pb-14">
           <div data-hero-content class="max-w-2xl text-balance">
             <h1 data-hero-title
-              class="mt-3 text-3xl font-semibold leading-tight text-neutral-800 sm:mt-4 sm:text-5xl lg:text-6xl font-display">
+              class="mt-3 text-3xl font-semibold leading-tight text-neutral-950 sm:mt-4 sm:text-5xl lg:text-6xl font-display">
               Verzorg je huid zoals <br>je het
               <span data-hero-title-accent
-                class="bg-gradient-to-r from-black via-black/80 to-white/10 md:bg-[length:100%_2px] bg-[length:100%_1px] bg-no-repeat bg-bottom">
+                class="bg-gradient-to-r from-black via-black/80 to-black/20 md:bg-[length:100%_2px] bg-[length:100%_1px] bg-no-repeat bg-bottom">
                 verdient.
               </span>
             </h1>
-            <p data-hero-copy class="mt-3 text-sm text-neutral-700 sm:mt-4 sm:text-lg">Pedicure, waxen en gellak met
+            <p data-hero-copy class="mt-3 text-sm font-medium text-neutral-900 sm:mt-4 sm:text-lg">Pedicure, waxen en gellak met
               persoonlijke
               aandacht. Een salon aan huis waarin je even echt tot jezelf komt.</p>
             <div data-hero-cta-wrap class="mt-5 sm:mt-6">
               <a data-hero-cta
-                class="group inline-flex gap-2 items-center justify-center rounded-[5px] bg-neutral-800 px-6 py-3 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                class="group inline-flex gap-2 items-center justify-center rounded-[5px] bg-neutral-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors duration-300 hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                 href="#afspraak">
                 Afspraak maken
                 <span class="group-hover:translate-x-1 transition-transform duration-300">→</span>
               </a>
             </div>
             <div data-hero-trust
-              class="group mt-4 inline-flex flex-nowrap items-center gap-3 text-neutral-700 transition-opacity duration-300 sm:mt-5">
+              class="group mt-4 inline-flex flex-nowrap items-center gap-3 text-neutral-900 transition-opacity duration-300 sm:mt-5">
               <a href="https://www.treatwell.nl/salon/petra-s-laser-beauty/" target="_blank" rel="noopener noreferrer"
                 class="hover:opacity-80">
                 <img data-hero-avatar class="h-8 w-auto object-contain" src="./assets/images/treatwell-logo.png"
                   alt="Treatwell logo" loading="lazy" />
               </a>
               <span
-                class="text-[10px] text-wrap leading-tight tracking-[0.08em] text-neutral-700 sm:max-w-none sm:text-[11px]">
+                class="text-[10px] max-w-[200px] text-wrap leading-tight tracking-[0.08em] text-neutral-900 sm:max-w-none sm:text-[11px]">
                 ⭐⭐⭐⭐⭐
-                4.9+ uit klantreviews op Treatwell</span>
+                <span>4.9+ uit klantreviews op Treatwell</span>
+              </span>
             </div>
           </div>
         </div>
@@ -229,7 +231,7 @@
           <div data-about-image-wrap class="relative">
             <div class="absolute -left-6 -top-6 hidden h-24 w-24 rounded-full bg-[#f7e7dc] blur-2xl lg:block">
             </div>
-            <img data-about-image class="w-full rounded-[5px] object-cover shadow-xl" src="./assets/hero.webp"
+            <img data-about-image class="w-full rounded-[5px] object-cover shadow-xl" src="./assets/home.jpg"
               alt="Interieur van Petra’s Laser &amp; Beauty" loading="lazy" />
           </div>
           <div class="group relative isolate" data-section-intro data-intro-state="hidden">
@@ -266,7 +268,7 @@
                   </span>
                   <div>
                     <p class="font-semibold text-neutral-900">Hygiëne</p>
-                    <p class="text-xs text-neutral-600">Schone materialen en een veilige, rustige setting.</p>
+                    <p class="text-xs text-neutral-600">Schone materialen in een frisse, rustige setting.</p>
                   </div>
                 </li>
                 <li class="flex items-start gap-3">
@@ -360,8 +362,8 @@
                     alt="Treatwell" loading="lazy" decoding="async" />
                 </li>
                 <li class="flex h-16 w-auto items-center justify-center">
-                  <img class="h-8 w-auto object-contain invert grayscale opacity-85"
-                    src="./assets/images/cnd-shellac.png" alt="CND Shellac" loading="lazy" decoding="async" />
+                  <img class="h-8 w-auto object-contain grayscale opacity-85"
+                    src="./assets/images/bo-nails-logo.png" alt="BO Nails" loading="lazy" decoding="async" />
                 </li>
                 <li class="flex h-16 w-auto items-center justify-center">
                   <img class="h-8 w-auto object-contain grayscale opacity-85" src="./assets/images/salonized-logo.png"
@@ -384,8 +386,8 @@
                     alt="Treatwell" loading="lazy" decoding="async" />
                 </li>
                 <li class="flex h-16 w-auto items-center justify-center">
-                  <img class="h-8 w-auto object-contain invert grayscale opacity-85"
-                    src="./assets/images/cnd-shellac.png" alt="CND Shellac" loading="lazy" decoding="async" />
+                  <img class="h-12 w-auto object-contain grayscale opacity-85"
+                    src="./assets/images/bo-nails-logo.png" alt="BO Nails" loading="lazy" decoding="async" />
                 </li>
                 <li class="flex h-16 w-auto items-center justify-center">
                   <img class="h-8 w-auto object-contain grayscale opacity-85" src="./assets/images/salonized-logo.png"
@@ -749,7 +751,7 @@
 
     <!-- Zwevend WhatsApp icoon (mobiel) -->
     <a href="https://wa.me/31625117274" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="2"
-      class="fixed bottom-20 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-green-500 shadow-lg hover:bg-green-600 lg:hidden"
+      class="fixed bottom-6 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-green-500 shadow-lg hover:bg-green-600 md:hidden"
       aria-label="Chat via WhatsApp">
       <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.216 175.552" aria-hidden="true">
         <defs>
@@ -773,11 +775,41 @@
       </svg>
     </a>
 
-    <!-- Salonized icon -->
-    <a href="https://wa.me/31625117274" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="2"
-      class="fixed bottom-6 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-[10px] bg-rose-500 shadow-lg hover:bg-green-600 lg:hidden"
-      aria-label="Chat via WhatsApp">
-    </a>
+    <!-- Salonized widget trigger (mobiel) -->
+    <button type="button" data-salonized-widget-trigger data-reveal data-reveal-delay="2"
+      class="fixed bottom-20 right-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-white border-[1px] border-rose/50 shadow-lg transition hover:bg-rose-100 md:hidden"
+      aria-label="Open Salonized afsprakenwidget">
+      <img class="h-8 w-auto object-contain" src="./assets/images/salonized-icon.png" alt="Salonized" loading="lazy"
+        decoding="async" />
+    </button>
+
+    <!-- Salonized widget modal -->
+    <div data-salonized-widget-modal
+      class="fixed inset-0 z-[70] hidden items-center bg-black/55 px-3 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:p-6" aria-hidden="true">
+      <div data-salonized-widget-close
+        class="absolute inset-0 bg-transparent" role="presentation"></div>
+      <section class="relative z-10 flex h-full w-full flex-col overflow-hidden rounded-[10px] bg-white shadow-2xl sm:mx-auto sm:max-w-4xl"
+        role="dialog" aria-modal="true" aria-label="Salonized afsprakenwidget">
+        <div class="flex items-center justify-between border-b border-neutral-200 px-4 py-3 sm:px-5">
+          <p class="text-sm font-semibold text-neutral-900">Boek je afspraak</p>
+          <button type="button" data-salonized-widget-close
+            class="inline-flex h-9 w-9 items-center justify-center rounded-[5px] text-neutral-700 transition hover:bg-neutral-100 hover:text-neutral-900"
+            aria-label="Sluit afsprakenwidget">
+            <span aria-hidden="true" class="text-xl leading-none">×</span>
+          </button>
+        </div>
+        <div data-salonized-widget-loader class="flex flex-col items-center justify-center gap-3 py-16 text-neutral-500">
+          <svg class="h-8 w-8 animate-spin text-neutral-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+          </svg>
+          <p class="text-sm">Agenda wordt geladen&hellip;</p>
+        </div>
+        <iframe data-salonized-widget-iframe class="hidden h-full w-full"
+          data-src="https://petras-laser-and-beauty.salonized.com/widget_bookings/new" title="Salonized afspraken widget"
+          loading="lazy"></iframe>
+      </section>
+    </div>
   </main>
 
   <!-- Footer met vaste gegevens -->

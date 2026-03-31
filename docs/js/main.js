@@ -11,3 +11,4 @@ import "./hero-intro-animations.js";
 import "./over-ons-image-reveal.js";
 import "./treatment-list-toggle.js";
 import "./treatment-modal.js";
+import "./salonized-widget-modal.js";
