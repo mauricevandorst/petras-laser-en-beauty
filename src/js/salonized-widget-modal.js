@@ -20,12 +20,21 @@ if (triggers.length > 0 && modal) {
     if (iframe) iframe.classList.remove("hidden");
   };
 
+  let loadTimeout = null;
+
   if (iframe) {
     iframe.addEventListener("load", () => {
       if (iframe.getAttribute("src")) {
+        if (loadTimeout) clearTimeout(loadTimeout);
         iframeLoaded = true;
         hideLoader();
       }
+    });
+
+    iframe.addEventListener("error", () => {
+      if (loadTimeout) clearTimeout(loadTimeout);
+      console.error("Salonized iframe failed to load");
+      hideLoader();
     });
   }
 
@@ -38,13 +47,27 @@ if (triggers.length > 0 && modal) {
   const openModal = (triggerElement) => {
     lastFocusedElement = triggerElement ?? document.activeElement;
 
-    if (iframe && iframe.dataset.src && !iframe.getAttribute("src")) {
-      showLoader();
-      iframe.setAttribute("src", iframe.dataset.src);
-    } else if (!iframeLoaded) {
-      showLoader();
-    } else {
-      hideLoader();
+    if (iframe && iframe.dataset.src) {
+      if (!iframe.getAttribute("src")) {
+        showLoader();
+        iframe.setAttribute("src", iframe.dataset.src);
+        
+        // Fallback timeout - hide loader after 8 seconds even if load event doesn't fire
+        if (loadTimeout) clearTimeout(loadTimeout);
+        loadTimeout = setTimeout(() => {
+          hideLoader();
+        }, 8000);
+      } else if (iframeLoaded) {
+        hideLoader();
+      } else {
+        showLoader();
+        
+        // Set fallback timeout for reload attempts too
+        if (loadTimeout) clearTimeout(loadTimeout);
+        loadTimeout = setTimeout(() => {
+          hideLoader();
+        }, 8000);
+      }
     }
 
     modal.classList.remove("hidden");
